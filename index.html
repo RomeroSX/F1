@@ -1,0 +1,57 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+    <label for="nombre"> Nombre </label>
+    <input id="nombre" type="text" name="name" pattern="[a-zA-Z]+" required>
+
+    <label for="apellidos"> Apellidos </label>
+    <input id="apellidos" type="text" name="surname" pattern="[a-z]+" required><br><br>
+    <label> Seleccione su color favorito: </label>
+    <input type="color"><br><br>
+    <label for="number">Seleccione su edad</label>
+    <input type="number" number="0-100" min="0" max="100"><br><br>
+<label>Numeros solo texto</label>
+    <input type="text" pattern="[0-100000000000]+" required><br><br>
+<label>Positivos</label>
+    <input type="number" min="0" max="1000000000000" pattern="[0-100000000000]+" required><br><br>
+
+        <input type="number" step="0.5" min="10" max="20" value="15"><br><br>
+        <input type="date" name="Fecha" id=""><br><br>
+    <input type="time" name="time" id=""><br><br>
+    <label for="">Por favor escoja su ciudad</label>
+    <select name="" id="">
+<option value="">Bucaramanga</option>
+<option value="">Risaralda</option>
+<option value="">Cucuta</option>
+<option value="">Cundinamarca</option>
+<option value="">Medellin</option>
+<option value="">Cartagena</option>
+<option value="">Barranquilla</option>
+<option value="">Bogota</option>
+    </select><br><br>
+    <label for="Sexo">Sexo:</label><br>
+    <input type="radio" name="Sexo" id="">Masculino <br>
+    <input type="radio" name="Sexo" id="">Femenino <br>
+    <input type="radio" name="Sexo" id="">Otro <br><br>
+    <label for=",materias"></label>Materias <br>
+    <input type="checkbox" name="materias" id="">HTML <br>
+    <input type="checkbox" name="materias" id="">CSS <br>
+    <input type="checkbox" name="materias" id="">JS <br>
+    <input type="checkbox" name="materias" id="">JAVA <br>
+    <input type="checkbox" name="materias" id="">PYTHON <br>
+    <input type="checkbox" name="materias" id="">PHP <br> <br>
+    <label for="archivo">Archivo (.jpg, .png):</label><br>
+    <input type="file" name="archivo" accept=".jpg, .png" multiple required><br><br>
+    <input type="password" name="" id="" placeholder="Contraseña"><br><br>
+    <input type="text" name="" id="" value="Jhon Kevin Romero" readonly=""><br><br>
+    <input type="submit" name="" id="">
+</form>
+
+</body>
+</html>
